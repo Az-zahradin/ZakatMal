@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background4" stylesheets="@gaya.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.zakatMalController">
+   <children>
+      <Label layoutX="223.0" layoutY="100.0" prefHeight="39.0" prefWidth="200.0" text="&quot;Sucikan Harta, Mari Berzakat!&quot;">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="emasButton" layoutX="21.0" layoutY="21.0" mnemonicParsing="false" onAction="#emasButtonONAction" prefHeight="40.0" prefWidth="130.0" stylesheets="@gaya.css" text="EMAS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="perakButton" layoutX="21.0" layoutY="82.0" mnemonicParsing="false" onAction="#perakButtonONAction" prefHeight="40.0" prefWidth="130.0" stylesheets="@gaya.css" text="PERAK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="binatangButton" layoutX="21.0" layoutY="141.0" mnemonicParsing="false" onAction="#binatangButtonONAction" prefHeight="40.0" prefWidth="130.0" stylesheets="@gaya.css" text="BINATANG">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="hPertanianButton" layoutX="21.0" layoutY="271.0" mnemonicParsing="false" onAction="#pertanianButtonONAction" prefHeight="25.0" prefWidth="177.0" stylesheets="@gaya.css" text="HASIL PERTANIAN">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bdagangButton" layoutX="21.0" layoutY="334.0" mnemonicParsing="false" onAction="#barangDaganganButtonONAction" prefHeight="21.0" prefWidth="200.0" stylesheets="@gaya.css" text="BARANG DAGANGAN">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="mataUangButton" layoutX="21.0" layoutY="207.0" mnemonicParsing="false" onAction="#mataUangButtonONAction" prefHeight="25.0" prefWidth="130.0" stylesheets="@gaya.css" text="MATA UANG">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="198.0" layoutY="46.0" prefHeight="73.0" prefWidth="249.0" text="ZAKATIFY" textAlignment="CENTER" textFill="#3130c7">
+         <font>
+            <Font name="System Bold Italic" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
